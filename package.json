@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js $dist",
+    "rutes": "node app.js $rutas",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chokidar": "^3.5.2",
     "fs-extra": "^9.0.1",
     "rimraf": "^3.0.2"
   }
